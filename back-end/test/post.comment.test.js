@@ -13,7 +13,7 @@ const should = chai.should() // the same assertion library in the style using th
 const server = require("../app")
 
 // the post and comment id we will make and delete within this test
-let game_id = "627a00945dc4ed40cb4110ca"
+let game_id = "6312be5ce18348ef325afdfd"
 let post_id = ""
 let comment_id = ""
 

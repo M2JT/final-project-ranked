@@ -14,7 +14,7 @@ const TermsCondtions = () => {
             <h2>Introduction</h2>
             <p>These Website Standard Terms and Conditions written 
               on this webpage shall manage your use of our website, 
-              Ranked accessible at http://157.245.85.16:3000/.
+              Ranked accessible at http://192.241.144.198:3000/.
             </p>
             <p>These Terms will be applied fully and affect to your use of this Website. 
               By using this Website, you agreed to accept all terms and conditions written 

@@ -17,7 +17,7 @@ describe("Account Login", () => {
   describe("POST /login when user doesn't enter password during login", () => {
     it("it should respond with an HTTP 200 status code and a JSON data (missing) in the response body", (done) => {
       const credentials = {
-        username: "rankedadmin",
+        username: "admin",
         password: "",
       }
       chai
@@ -55,7 +55,7 @@ describe("Account Login", () => {
   describe("POST /login when user has entered an incorrect password", () => {
     it("it should respond with an HTTP 200 status code and a JSON data (incorrect) in the response body", (done) => {
       const credentials = {
-        username: "rankedadmin",
+        username: "admin",
         password: "qeuoqiabdjahj",
       }
       chai
@@ -74,7 +74,7 @@ describe("Account Login", () => {
   describe("POST /login when user login is successful", () => {
     it("it should respond with an HTTP 200 status code and a JSON data (success & token) in the response body", (done) => {
       const credentials = {
-        username: "rankedadmin",
+        username: "admin",
         password: process.env.ADMIN_PW,
       }
       chai

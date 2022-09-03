@@ -57,7 +57,7 @@ describe("Account Registration", () => {
   describe("POST /register when user is trying to register an account that already exists in our database", () => {
     it("it should respond with an HTTP 200 status code and a JSON data (duplicated) in the response body", (done) => {
       const credentials = {
-        username: "rankedadmin",
+        username: "admin",
         password: "secret",
         email: "unit@testing.com",
       }
